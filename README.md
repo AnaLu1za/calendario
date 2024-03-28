@@ -1,6 +1,6 @@
 ## Calendário de Agendamentos de Fretes
 - Projeto desenvolvido em html, javascript e css.
-
+![Calendario](img/calendario.png)
 ## Índice
 * [Descrição](#descrição)
 * [Introdução](#introdução)
