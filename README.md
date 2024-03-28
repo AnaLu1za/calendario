@@ -1,6 +1,5 @@
 ## Calendário de Agendamentos de Fretes
-- Projeto desenvolvido em html, javascript e css.
-![Calendario](img/calendario.png)
+Projeto desenvolvido em html, javascript e css.
 ## Índice
 * [Descrição](#descrição)
 * [Introdução](#introdução)
@@ -10,6 +9,8 @@
 
 ## Descrição
 * Este arquivo HTML representa a estrutura básica de um calendário web. Ele exibe um calendário mensal com os dias da semana, datas e uma seção para seleção de cores e datas que serão essenciais para o real motivo do projeto, que são agendamentos para uma empresa de fretes. 
+
+![Calendario](img/calendario.png)
 
 ## Introdução
 * Seja bem-vindo ao calendário web! Este projeto demonstra a estrutura básica de um calendário mensal com funcionalidades interativas desenvolvidas com JavaScript.
