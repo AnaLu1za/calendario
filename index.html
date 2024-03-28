@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calendário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    </head>
+  <body>
+    <section class="conteiner">
+        <div class="calendar">
+        
+          <div class="weekdays">
+          <div class="day">Dom</div>
+          <div class="day">Seg</div>
+          <div class="day">Ter</div>
+          <div class="day">Qua</div>
+          <div class="day">Qui</div>
+          <div class="day">Sex</div>
+          <div class="day">Sáb</div>
+        </div>
+    
+      <div class="days">
+    <table class="calendar" id="calendar">
+      <thead>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td class="fds">5</td>
+        </tr>
+        <tr>
+          <td class="fds">6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td class="fds">13</td>
+        </tr>
+        <tr>
+          <td class="fds">14</td>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td class="fds">21</td>
+        </tr>
+        <tr>
+          <td class="fds">22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+          <td class="fds">29</td>
+        </tr>
+        <tr>
+          <td class="fds">30</td>
+          <td>31</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr/>
+
+    <section class="veiculos">
+    <div class="veculos">
+      <h2>Veículos</h2>
+      <p>Veículo 1: Azul</p>
+      <p>Veículo 2: Verde</p>
+      <p>Veículo 3: Rosa</p>
+      <p>Veículo 4: Roxo</p>
+    </div>
+  </section>
+    
+    <section class="botao">
+      <label for="color">Escolha uma cor:</label>
+      <select id="color" name="color">
+          <option value="LightBlue">Azul</option>
+          <option value="PaleGreen">Verde</option>
+          <option value="LightPink">Rosa</option>
+          <option value="SlateBlue">Roxo</option>
+      </select>
+      <label for="day">Escolha o dia:</label>
+      <input type="number" id="day" name="day" min="1" max="31">
+      <input type="submit" onclick="colorirDia()">
+  </section>
+</section>
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
