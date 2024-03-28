@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+:root {
+  --text-color: #1d1d1d;
+  --bg-color: #f1f1fb;
+
+  text-align: center;
+  padding: 100px;
+}
+* {
+  margin: 0;
+  padding: 2;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;  
+}
+
+body {
+  background-color: #fff;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+}
+.calendar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.calendar .header .btns .btn {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.weekdays {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.weekdays .day {
+  width: calc(100% / 7 - 10px);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.veiculos {
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+section.botao {
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+body {
+  font-family: Arial, sans-serif; 
+}
+
+.conteiner {
+  width: 600px; 
+  margin: 0 auto;
+}
+
+.calendar {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 10px 15px; 
+  font-size: 14px;
+  color: #666; 
+}
+
+.day {
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.days {
+  border-collapse: collapse;
+}
+
+table.calendar {
+  width: 100%;
+  table-layout: fixed; 
+}
+
+td {
+  padding: 12px 15px; 
+  text-align: center;
+  border: none; 
+  background-color: #adaaaa; 
+  cursor: pointer; 
+  font-size: 16px; 
+}
+
+.today {
+  background-color: #f5f5f5;
+  font-weight: bolder;
+}
+
+hr{
+  border: none;
+  border-top: 1px dashed #ddd;
+  margin: 10px 0;
+}
+
+.calendar td {
+  /* Cor padrão para os dias */
+  background-color: #fff;
+  color: #333;
+}
+
