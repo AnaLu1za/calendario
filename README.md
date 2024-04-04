@@ -15,10 +15,10 @@ Projeto desenvolvido em html, javascript e css.
 ## Introdução
 * Seja bem-vindo ao calendário web! Este projeto demonstra a estrutura básica de um calendário mensal com funcionalidades interativas desenvolvidas com JavaScript.
 
-- O que você pode fazer:
+**O que você pode fazer:**
 
 - Visualizar um calendário mensal completo com os dias da semana e datas.
-- Selecionar cores e datas.
+- Selecionar cores e datas, com uma restrição de três dias por cor.
 - Visualizar as devidas cores de cadas veículos. 
 
 ## Funcionalidades
