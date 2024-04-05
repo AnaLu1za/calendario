@@ -149,3 +149,10 @@ hr{
   color: #333;
 }
 
+section.botao.reset {
+  text-align: left;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;  
+}
+
