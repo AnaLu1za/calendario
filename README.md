@@ -25,6 +25,7 @@ Projeto desenvolvido em html, javascript e css.
 - Exibição do calendário mensal: A página exibe um calendário mensal com os dias da semana e as datas dos dias do mês. 
 - Existe uma seção com um menu para escolher cores e um campo para selecionar o dia, com isso colorindo o dia agendado.
 - Seção de veículos (informativa): Há uma seção informativa que lista veículos com cores associadas (Azul, Verde, Rosa, Roxo). Esta seção não possui interatividade.
+- Assim que todas as cores tiverem atingido o limite de marcações (3 vezes), é possível utilizar a função "Reiniciar Marcações". 
 
 ## Técnicas e tecnologias utilizadas
 * [<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
