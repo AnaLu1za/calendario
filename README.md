@@ -1,4 +1,4 @@
-## Calendário de Agendamentos de Fretes
+## Calendário de Veículos - Agendamento e Codificação por Cores
 Projeto desenvolvido em html, javascript e css.
 ## Índice
 * [Descrição](#descrição)
@@ -10,7 +10,7 @@ Projeto desenvolvido em html, javascript e css.
 ## Descrição
 * Este arquivo HTML representa a estrutura básica de um calendário web. Ele exibe um calendário mensal com os dias da semana, datas e uma seção para seleção de cores e datas que serão essenciais para o real motivo do projeto, que são agendamentos para uma empresa de fretes. 
 
-![Calendario](img/calendario.png)
+![Calendario](img/calendario.gif)
 
 ## Introdução
 * Seja bem-vindo ao calendário web! Este projeto demonstra a estrutura básica de um calendário mensal com funcionalidades interativas desenvolvidas com JavaScript.
@@ -48,4 +48,6 @@ Projeto desenvolvido em html, javascript e css.
 ## Autor(a)
 |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712281?v=4" width=115><br><sub>Ana Santos</sub>](https://github.com/AnaLu1za) |  
 | :---: |
+
+Meu Linkedin ➡️[<code><img height="32" src="https://t.ctcdn.com.br/IwwDh-BajTE4ZwE4zuIcvz9Q2ZY=/i490027.jpeg" alt="Linkedin"/></code>](https://www.linkedin.com/posts/ana-luiza-santos-a5032a2a2_github-analu1zacalendario-activity-7181609216594362368-L0ck?utm_source=share&utm_medium=member_desktop&classId=0957c4cc-ef7e-4a5a-9f0e-dd51c581416f&assignmentId=cc9b78ea-57be-4ad0-9681-cb7e4f2dcf2f&submissionId=723a32cd-89b3-e400-9d53-b09d)
 
